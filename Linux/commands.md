@@ -1,62 +1,44 @@
-\# linux commands
+# Linux Commands
 
+## pwd
 
+Shows the current directory.
+بتظهر الفولدر اللي انت موجود فيه.
 
-\## pwd
+## ls -a | -l | -al
 
-Shows the current directory.بتظهر الفولدر اللي انت موجود فيه
+Lists files and directories.
 
+## cd
 
+Changes the current directory.
 
-\## ls  -a |  -l  |  -al
+## man + (command name)
 
-list files and directoyies. 
+بيديني معلومات عن الأمر وكل الإضافات اللي ممكن أستخدمها معاه.
 
+## cp
 
+Copies files.
 
-\## cd 
+## touch
 
-change current directory.
+Creates an empty file.
 
+## mv
 
+Moves or renames a file.
 
-\## man + (command name)
+## rm
 
-بيديني معلومات عن الامر وكل الاضافات اللي ممكن استخدمها معاه
+Removes files or non-empty directories.
 
+## rmdir
 
+Removes empty directories.
 
-\## cp 
+## mkdir
 
-copy files
+Creates a directory.
 
-
-
-\## touch 
-
-create empty file.
-
-
-
-\## mv
-
-move or rename file.
-
-
-
-\## rm
-
-remove files or non empty directoties.
-
-
-
-\## rmdir
-
-remove empty directory.
-
-
-
-\## mkdir
-
-create directory.
 
