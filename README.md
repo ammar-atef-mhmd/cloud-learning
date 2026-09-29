@@ -1,4 +1,4 @@
-\# Cloud Learning Journey
+# Cloud Learning Journey
 
 
 
@@ -6,25 +6,25 @@ My hands-on learning journey toward Cloud DevOps / Cloud Security.
 
 
 
-\## Topics
+## Topics
 
 
 
-\- Linux
+- Linux
 
-\- Bash Scripting
+- Bash Scripting
 
-\- Networking
+- Networking
 
-\- Git
+- Git
 
-\- AWS
+- AWS
 
-\- Docker
+- Docker
 
-\- Terraform
+- Terraform
 
-\- CI/CD
+- CI/CD
 
-\- Kubernetes
+- Kubernetes
 
