@@ -35,7 +35,7 @@ bash script.sh
 > مهم: `[[ ... ]]` و`(( ... ))` من صياغات Bash. شغّل السكريبت باستخدام
 > Bash، ولا تستخدم `sh script.sh` إذا كان يعتمد على هذه الصياغات.
 
-------------------------------------------------------------------------
+--------------------------------------------------------------------------
 
 ## 2. المتغيرات Variables
 
@@ -528,8 +528,22 @@ esac
 ```
 
 ------------------------------------------------------------------------
+## 13. Bash Data Streams
 
-## 13. كود الخروج `exit status`
+- stdin (0): Standard Input
+- stdout (1): Standard Output
+- stderr (2): Standard Error
+
+### Output Redirection
+- `>`: Redirect stdout and overwrite the file.
+- `>>`: Append stdout to the file.
+- `2>`: Redirect stderr and overwrite the file.
+- `2>>`: Append stderr to the file.
+- `&>`: Redirect stdout and stderr to one file in Bash.
+- `>/dev/null 2>&1`: Discard both stdout and stderr.
+--------------------------------------------------------------------------
+
+## 14. كود الخروج `exit status`
 
 كل أمر يعيد كود خروج: - `0` يعني نجاحًا عادةً. - أي قيمة غير صفرية تعني
 فشلًا أو حالة خاصة بالأمر.
