@@ -11,5 +11,5 @@ mkdir my_project
 chmod 700 my_project
 chown -R $USER:$USER my_project
 cd my_project
-git init
+echo "ninjaaaaa"
 
